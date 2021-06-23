@@ -47,8 +47,8 @@ int main() {
                     }
                 }
             }
-            cnt = cnt > cnt_b ? cnt_b : cnt;
-            cnt = cnt > cnt_w ? cnt_w : cnt;
+            cnt   = cnt > cnt_b ? cnt_b : cnt;
+            cnt   = cnt > cnt_w ? cnt_w : cnt;
             cnt_b = 0;
             cnt_w = 0;
         }
