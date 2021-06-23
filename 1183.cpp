@@ -9,16 +9,18 @@ int main() {
 
     int N, x, y;
     cin >> N;
-    int *X = new int(N);
+    if (N & 1) {
+        cout << 1;
+        return 0;
+    }
+
+    int *X = new int[N];
     for (int i = 0; i < N; i++) {
         cin >> x >> y;
         X[i] = x - y;
     }
+
     sort(X, X + N);
-    if (N % 2 == 0) {
-        cout << 1;
-        return 0;
-    }
     cout << abs(X[N / 2] - X[N / 2 - 1]) + 1;
     return 0;
 }
