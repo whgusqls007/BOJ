@@ -21,6 +21,7 @@ int main() {
         cout << "-1.0";
         return 0;
     }
+
     double line1 = hypot(A.x - B.x, A.y - B.y);
     double line2 = hypot(A.x - C.x, A.y - C.y);
     double line3 = hypot(B.x - C.x, B.y - C.y);
