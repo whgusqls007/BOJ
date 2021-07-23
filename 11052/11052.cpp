@@ -10,6 +10,7 @@ int main() {
     cout.tie(0);
 
     cin >> N;
+
     for (int i = 1; i <= N; i++) {
         cin >> P[i];
     }
