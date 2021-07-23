@@ -62,7 +62,9 @@
                         <h2>예제 입력 1</h2>
                     </div>
                     <pre class="sampledata" id="sample-input-1">
+
 1
+
 </pre
                     >
                 </section>
@@ -115,4 +117,5 @@
         </section>
     </div>
 </div>
+
 <h3>문제 : https://www.acmicpc.net/problem/10844</h3>
